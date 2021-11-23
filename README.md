@@ -3,7 +3,7 @@
 ✏️ ComputerScienceStudy
 ====================================
 ## 🌟과목🌟
-- [운영체제]()
+- [운영체제](https://github.com/corrvax/ComputerScienceStudy/blob/main/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.md)
 - [네트워크]()
 - [자료구조]()
 - [알고리즘]()
