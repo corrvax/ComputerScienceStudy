@@ -9,7 +9,7 @@
 - [네트워크](https://github.com/corrvax/ComputerScienceStudy/blob/main/network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)
 - [자료구조]()
 - [알고리즘]()
-- [예상면접질문]()
+- [예상면접질문](https://github.com/corrvax/ComputerScienceStudy/blob/main/question/%EC%98%88%EC%83%81%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8.md)
 ---
 ## 👤구성원
 
