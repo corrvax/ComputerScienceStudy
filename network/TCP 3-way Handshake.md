@@ -16,7 +16,7 @@
 
 ## TCP 3-way Handshake 의 정의와 역할
 
-**정의**
+**정의**<br />
 TCP/IP 프로토콜을 이용해서 통신을 하는 응용프로그램이 데이터를 전송하기 전에 먼저 **정확한 전송을 보장하기 위해** 상대방 컴퓨터와 사전에 세션을 수립하는 과정을 의미한다. 
 <br/>
 **역할**
@@ -54,7 +54,7 @@ TCP/IP 프로토콜을 이용해서 통신을 하는 응용프로그램이 데�
 <div id="3"></div>
 
 ## TCP 4-way Handshaking 과정
-**정의** 
+**정의** <br />
 세션을 종료하기 위해 수행되는 과정 
 
 ![enter image description here](https://t1.daumcdn.net/cfile/tistory/2152353F52F1C02835)
