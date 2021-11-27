@@ -29,6 +29,8 @@ Domain Name System 의 약자로서 IP 네트워크에서 사용하는 시스템
 
 **Domain 구조**
 
+<br />
+
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/lPmaS/btq4X6Ig1BQ/TuKGUCcyRyuzHkSxwaXg00/img.png)
 
 
@@ -82,6 +84,9 @@ Domain Name System 의 약자로서 IP 네트워크에서 사용하는 시스템
 <br />
 
 **DNS Round robin 원리**
+
+<br />
+
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/yY2sc/btq4VBpjmAM/kSvBRPxrUUwGKVObTd08k1/img.png)
 
 <br/>
@@ -114,6 +119,9 @@ Domain Name System 의 약자로서 IP 네트워크에서 사용하는 시스템
 <div id="3"></div>
 
 ## DNS Round robin 단점해소 방법
+
+<br />
+
 **Weighted round robin (WRR)**
 <br/>
 각각의 웹 서버에 가중치를 가미해서 분산 비율을 변경한다. 물론 가중치가 큰 서버일수록 빈번하게 선택되므로 처리능력이 높은 서버는 가중치를 높게 설정하는 것이 좋다.
