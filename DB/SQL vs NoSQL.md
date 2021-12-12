@@ -20,7 +20,7 @@
 SQL 은 '**구조화 된 쿼리 언어 (Structured Query Language)**' 를 말한다. 따라서 데이터베이스 자체를 나타내는 것이 아니라, 특정 유형의 데이터베이스와 상호 작용하는 데 사용 하는 쿼리 언어이다.  
 SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 데이터를 저장, 수정, 삭제 및 검색 할 수 있다.
 </br>
-
+</br>
   **SQL 특징**
     </br>
     
@@ -28,7 +28,7 @@ SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 �
   2. 데이터는 **관계를 통해서 연결된 여러 테이블에 분산**된다.
   </br>
   
-  **정해진 데이터 스키마(엄격한 스키마)**
+**1. 정해진 데이터 스키마(엄격한 스키마)**
   </br>
   ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bzaTkz/btqFNQK86q1/UTJTesTZgKhy5kbvPoeKJK/img.png)
   
@@ -37,7 +37,8 @@ SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 �
  SQL에서는 **스키마를 준수하지 않은 레코드는 테이블에 추가 수 없다.** 위의 테이블에서 보면 위의 데이터 외에 다른 추가할 수 없다.
  </br>
  
-**관계**
+ </br>
+**2. 관계**
 </br>
 
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bqdT4U/btqFPH66Lke/80rZaJ1LudbB1RUojBfNLk/img.png)
