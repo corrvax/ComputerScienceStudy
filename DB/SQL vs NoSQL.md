@@ -38,7 +38,7 @@ SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 �
  </br>
  
  </br>
-**2. 관계**
+**2.관계**
 </br>
 
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bqdT4U/btqFPH66Lke/80rZaJ1LudbB1RUojBfNLk/img.png)
