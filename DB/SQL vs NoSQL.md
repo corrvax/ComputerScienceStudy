@@ -63,6 +63,7 @@ SQL과는 반대로 스키마도 없고 관계도 없다.
 NoSQL 에서는 테이블(table)을 컬렉션(Collection)으로, 레코드(record)를 문서(documents)라고 부른다.
 그러나 단순히 이름만 다른 것이 아니라, 핵심적인 차이가 있다.  SQL에서는 정해진 스키마를 따르지 않는다면 데이터를 추가 할 수 없었지만, **NoSQL에서는 다른 구조의 데이터를 같은 컬렉션(= SQL에서의  table)에 추가할 수 있다**.  </br>
   </br>
+  </br>
   
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bacgVx/btqFPHeZ0uW/bfZy8A6IoZPQIlC97kXNd0/img.png)
  
