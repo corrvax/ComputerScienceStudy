@@ -109,7 +109,7 @@ B+Tree는 모든 노드에 데이터(Value)를 저장했던 B-Tree와 다른 특
 
 이러한 이유로 비록 B+Tree는 O(log2n) 의 시간복잡도를 갖지만 해시테이블보다 인덱싱에 더욱 적합한 자료구조가 되었다.
 <img width="564" alt="스크린샷 2021-12-16 오후 8 09 23" src="https://user-images.githubusercontent.com/54795404/146361046-011c2743-30c0-4d72-91a4-c271848ce199.png">
--679d8e57388f/Untitled.png)
+
 
 위는 InnoDB에서 사용한 B+Tree구조이다.
 
