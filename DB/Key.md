@@ -2,7 +2,7 @@
 
 ### Key란? 검색이나 정렬 시 Tuple을 구분할 수 있는 기준이 되는 Attribute.
 
-  
+  ![](https://user-images.githubusercontent.com/33534771/75773133-a4d02680-5d90-11ea-8ad0-ac4b85e438d2.png)
   
 
 ## 1. Candidate Key(후보키)
