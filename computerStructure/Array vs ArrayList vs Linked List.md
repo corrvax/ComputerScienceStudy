@@ -229,7 +229,9 @@ ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변�
     ```
     
 <div id="3"></div>
+
 ## Linked List
+
 <br />
 
 ### Linked List란
@@ -263,8 +265,7 @@ LinkedList란 Collection 프레임워크의 일부이며 java.util 패키지에 
 
 1. 삽입
     
-  ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bTqFl4/btq2IhL6sh8/6OOLAzpcszOKPvIHZ3zwJK/img.png)
-    
+  ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bTqFl4/btq2IhL6sh8/6OOLAzpcszOKPvIHZ3zwJK/img.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bTqFl4/btq2IhL6sh8/6OOLAzpcszOKPvIHZ3zwJK/img.png)
     
     - 맨 앞 , 맨 뒤 삽입은 위치를 찾지 않아도 되서 시간 복잡도 O(1)이다.
     - 중간 삽입은 이전 노드와 다음 노드의 위치를 알고 있는 경우 시간 복잡도는 O(1)이다.
