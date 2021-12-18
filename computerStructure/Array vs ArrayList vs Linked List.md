@@ -263,14 +263,15 @@ LinkedList란 Collection 프레임워크의 일부이며 java.util 패키지에 
 
 1. 삽입
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbTqFl4%2Fbtq2IhL6sh8%2F6OOLAzpcszOKPvIHZ3zwJK%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbTqFl4%2Fbtq2IhL6sh8%2F6OOLAzpcszOKPvIHZ3zwJK%2Fimg.png)
+  ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bTqFl4/btq2IhL6sh8/6OOLAzpcszOKPvIHZ3zwJK/img.png)
+    
     
     - 맨 앞 , 맨 뒤 삽입은 위치를 찾지 않아도 되서 시간 복잡도 O(1)이다.
     - 중간 삽입은 이전 노드와 다음 노드의 위치를 알고 있는 경우 시간 복잡도는 O(1)이다.
     - 하지만 탐색을 해야하는 경우 시간 복잡도 O(n)이다.
 2. 삭제
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FccCN4y%2Fbtq2EhzOKfI%2FjbiAFDCjlmLKlLLke9MGTk%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FccCN4y%2Fbtq2EhzOKfI%2FjbiAFDCjlmLKlLLke9MGTk%2Fimg.png)
+    ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ccCN4y/btq2EhzOKfI/jbiAFDCjlmLKlLLke9MGTk/img.png)
     
     - 삽입과 마찬가지로 맨 앞, 맨 뒤 삭제는 시간 복잡도 O(1)이다.
     - 중간 삭제는 시간 복잡도 O(n) 또는 O(1)이다. (삽입과 같음)
