@@ -71,13 +71,13 @@
 2. 검색
     - **배열의 검색은 순차검색이다.** 인덱스를 알지 못할 때 원하는 값을 찾기 위해 배열을 하나하나 확인해야한다.
         
-        [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FebR7Gv%2FbtqUWtaBdb1%2FPsZJhqmDd2BUy8b9OpJfw1%2Fimg.jpg](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FebR7Gv%2FbtqUWtaBdb1%2FPsZJhqmDd2BUy8b9OpJfw1%2Fimg.jpg)
+        ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FebR7Gv%2FbtqUWtaBdb1%2FPsZJhqmDd2BUy8b9OpJfw1%2Fimg.jpg](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FebR7Gv%2FbtqUWtaBdb1%2FPsZJhqmDd2BUy8b9OpJfw1%2Fimg.jpg)
         
     - A[3]의 값을 찾기 위해 A[0], A[1]... 을 순서대로 검색한다. 따라서 최대 O(n)의 시간 복잡도를 가진다.
 3. 삽입, 삭제
     - 추가와 삭제는 먼저 빈 공간이 마련되 있다를 전제로 한다.
         
-        [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FctbBif%2FbtqU0xXor35%2Ftv2mfnmBKKakoWTN1FokYk%2Fimg.jpg](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FctbBif%2FbtqU0xXor35%2Ftv2mfnmBKKakoWTN1FokYk%2Fimg.jpg)
+        ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FctbBif%2FbtqU0xXor35%2Ftv2mfnmBKKakoWTN1FokYk%2Fimg.jpg](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FctbBif%2FbtqU0xXor35%2Ftv2mfnmBKKakoWTN1FokYk%2Fimg.jpg)
         
     - 추가, 삭제의 시간복잡도는 앞서 말한 접근과 검색의 방법 차이에 따라 시간복잡도가 나뉜다.
     - 배열의 원소를 삭제할 경우, 삭제한 원소보다 큰 인덱스를 값을 갖는 원소들을 1씩 옮겨줘야 하기 때문에 시간 복잡도는 O(n)이다.
@@ -131,7 +131,7 @@
 
 ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변적으로 변하는 선형리스트이다. 일반적인 배열과 같은 순차리스트이며 인덱스로 내부의 객체를 관리한다는점등이 유사하지만 한번 생성되면 크기가 변하지 않는 배열과는 달리 ArrayList는 객체들이 추가되어 저장 용량(capacity)을 초과한다면 자동으로 부족한 크기만큼 저장 용량(capacity)이 늘어난다는 특징을 가지고 있다.
 
-[https://t1.daumcdn.net/cfile/tistory/995E66395B1CFD7D10](https://t1.daumcdn.net/cfile/tistory/995E66395B1CFD7D10)
+![https://t1.daumcdn.net/cfile/tistory/995E66395B1CFD7D10](https://t1.daumcdn.net/cfile/tistory/995E66395B1CFD7D10)
 
 ### ArrayList 특징
 
@@ -152,9 +152,9 @@ ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변�
 
 1. 조회 (get / set)
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FemUNfi%2Fbtq2GR1DcGE%2FD1dwzwzlu6JJXjoqaFBA60%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FemUNfi%2Fbtq2GR1DcGE%2FD1dwzwzlu6JJXjoqaFBA60%2Fimg.png)
+    ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FemUNfi%2Fbtq2GR1DcGE%2FD1dwzwzlu6JJXjoqaFBA60%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FemUNfi%2Fbtq2GR1DcGE%2FD1dwzwzlu6JJXjoqaFBA60%2Fimg.png)
     
-    배열의 index를 통해 접근하는 방식이기 때문에, random access속도가 빠르며 **`get`** / **`set`** 메소드는 **상수 시간**을 가지게 된다.
+    배열의 index를 통해 접근하는 방식이기 때문에, random access속도가 빠르며 **get** / **set** 메소드는 **상수 시간**을 가지게 된다.
     
 2. 삽입 (add)
     
@@ -167,13 +167,13 @@ ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변�
     
     따라서 기존에 있던 배열에서 추가하고 싶은 index부터 마지막 index까지 **한 칸씩 뒤로 미루는 연산**이 필요하다.
     
-    따라서, 해당하는 인덱스를 찾아가는 시간(O(1)) + 배열을 복사하는 시간**(O(n)) = O(n)**의 시간이 소요된다.
+    따라서, 해당하는 인덱스를 찾아가는 시간(O(1)) + 배열을 복사하는 시간 **(O(n)) = O(n)**의 시간이 소요된다.
     
 3. 삭제 (remove)
     
-    **`add`**와 유사하게 remove는 삭제된 index + 1부터 마지막 index까지 **한 칸씩 앞으로 당기는 연산**을 하게 된다.
+    **add**와 유사하게 remove는 삭제된 index + 1부터 마지막 index까지 **한 칸씩 앞으로 당기는 연산**을 하게 된다.
     
-    따라서, **`add`**와 동일한 **O(n)**의 시간 복잡도를 가지게 된다
+    따라서, **add**와 동일한 **O(n)**의 시간 복잡도를 가지게 된다
     
 
 ### **ArrayList 사용법**
