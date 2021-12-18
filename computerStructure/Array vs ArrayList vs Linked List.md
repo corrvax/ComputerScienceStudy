@@ -86,7 +86,7 @@
 ### **Array 사용법**
 
 <details>
-<summary>**선언**</summary>
+<summary>선언</summary>
 <div markdown="1">
     
     생성된 배열을 다루기 위한 참조 변수를 위한 공간이 만들어진다.
@@ -95,8 +95,8 @@
     자료형[] 배열이름;
     ```
     
-<details>
-<summary>**생성**</summary>
+
+<summary>생성</summary>
 <div markdown="1">
     
     배열을 생성해야 값을 저장할 수 있는 공간이 만들어진다.  배열의 길이는 값을 저장할 수 있는 공간의 개수다.  0을 포함한 양의 정수만 올 수 있다.
@@ -106,8 +106,7 @@
     자료형[] 배열이름 = new 자료형[길이];
     ```
     
-<details>
-<summary>**초기화**</summary>
+<summary>초기화</summary>
 <div markdown="1">
     
     ```java
