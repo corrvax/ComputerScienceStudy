@@ -13,6 +13,7 @@ eg)컴퓨터의 directory구조
 <img width="497" alt="스크린샷 2021-12-19 오후 7 16 24" src="https://user-images.githubusercontent.com/54795404/146671488-3c4ba6db-0fb0-4290-a6c8-77edffd19043.png">
 
 트리 구조에서 사용되는 기본 용어
+
 <img width="517" alt="스크린샷 2021-12-19 오후 7 18 11" src="https://user-images.githubusercontent.com/54795404/146671538-5fc21997-1366-4143-b07d-3a4770e7a50c.png">
 
 ### 노드 (Node)
@@ -62,5 +63,12 @@ A 노드의 높이 : 3
 ### 트리의 특징
 - 하나의 루트노드와 0개 이상의 하위 트리로 구성되어 있다.
 - 데이터를 순차적으로 저장하지 않기 때문에 비선형 자료구조이다.
+- 트리내에 또 다른 트리가 있는 재귀적 자료구조이다.
+- 단순 순환(Loop)을 갖지 않고, 연결된 무방향 그래프 구조이다.
+- 노드가 n개인 트리는 항상 n-1개의 간선을 가진다.
+<img width="461" alt="스크린샷 2021-12-19 오후 7 31 49" src="https://user-images.githubusercontent.com/54795404/146671915-b3251f6e-cc8f-47d7-803f-95d7df266792.png">
+
+다음은 트리가 아닌경우이다.(루트 노드가 두 개가 있으므로 트리가 아닙니다.)
+<img width="456" alt="스크린샷 2021-12-19 오후 7 32 25" src="https://user-images.githubusercontent.com/54795404/146671934-40b070b1-b59c-4d57-8936-e2f0b4b0975d.png">
 
 
