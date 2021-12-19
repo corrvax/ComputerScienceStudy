@@ -72,3 +72,32 @@ A 노드의 높이 : 3
 <img width="456" alt="스크린샷 2021-12-19 오후 7 32 25" src="https://user-images.githubusercontent.com/54795404/146671934-40b070b1-b59c-4d57-8936-e2f0b4b0975d.png">
 
 
+<img width="515" alt="스크린샷 2021-12-19 오후 7 37 59" src="https://user-images.githubusercontent.com/54795404/146672056-97043261-6976-4a1f-8aa7-b4ed132470c2.png">
+
+
+## 이진트리(Binary Tree)
+이진트리는 각 노드가 최대 두 개의 자식을 갖는 트리를 뜻한다. 
+1. 공집합 이거나
+2. 루트와 왼쪽 서브트리, 오른쪽 서비트리로 구성된 노드들의 유한 집합
+
+<img width="489" alt="스크린샷 2021-12-19 오후 7 50 32" src="https://user-images.githubusercontent.com/54795404/146672421-4f403e6c-3e35-4cda-b96b-8c4b042ba2aa.png">
+
+
+이진 트리는 전위 순회, 중위 순회, 후위 순회를 통해 탐색할 수 있다.
+
+### 중위 순회(inorder traversal) 
+LVR 탐색이 이루어진다.(왼쪽 서브 트리 - 루트 노드 - 오른쪽 서브트리 )
+<img width="503" alt="스크린샷 2021-12-19 오후 7 44 06" src="https://user-images.githubusercontent.com/54795404/146672252-ffccd5ed-7370-4164-a2fa-4a0340f9a4d5.png">
+A B C D E F G H I
+
+### 전위 순회(Preorder Traversal)
+VLR 탐색이 이루어진다. (루트 노드 - 왼쪽 서브 트리- 오른쪽 서브 트리)
+
+<img width="500" alt="스크린샷 2021-12-19 오후 7 47 57" src="https://user-images.githubusercontent.com/54795404/146672363-e7e999a1-370e-412c-9da0-c5b3f2a759fb.png">
+
+### 후위 순회(Postorder Traversal)
+LRV 탐색이 이루어진다. ( 왼쪽 서브 트리 - 오른쪽 서브 트리 - 루트 노드)
+<img width="483" alt="스크린샷 2021-12-19 오후 7 48 59" src="https://user-images.githubusercontent.com/54795404/146672386-004c2d4c-fc2f-4ce9-b349-86d7c0835da8.png">
+
+
+
