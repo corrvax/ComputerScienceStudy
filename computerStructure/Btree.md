@@ -11,7 +11,7 @@
 3. [**삽입 과정**](#3)
 4. [**삭제 과정**](#4)
 
-[B+Tree]()
+--> B+Tree란?? [B+Tree](https://github.com/corrvax/ComputerScienceStudy/blob/main/computerStructure/B%2BTree.md)
 <br />
 
 <div id="1"></div>
