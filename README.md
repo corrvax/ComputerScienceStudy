@@ -40,6 +40,6 @@
 - 3주차마다 오프라인 모임 ( 발표 없이 개인별 30분씩 면접. 2주 동안 정리한 각 과목 면접 )
 - 장소 : ENI 스터디룸 본점
 
-[업로드 형식]()
+[업로드 형식](https://github.com/corrvax/ComputerScienceStudy/blob/main/example.md)
 ---
 
