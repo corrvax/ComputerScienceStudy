@@ -159,3 +159,30 @@ k를 삭제한 후, 부모key를 형제 노드와 병합한다.
 
 ***Case 1.4) 자신과 형제, 부모 노드의 key 개수가 모두 최소 key 개수라면***
 부모노드를 루트노드로 한 부분 트리의 높이가 줄어드는 경우이기 때문에 재구조화의 과정이 일어난다. case3의 2번 과정으로 이동한다.
+
+### Case2) 삭제할 key k 가 내부 노드에 있고, 노드나 자식에 키가 최소 키 개수보다 많을 경우
+현재 노드의 inorder predecessor 또는 inorder successor와 k의 자리를 바꿉니다.
+리프노드의 k를 삭제하게 되면, 리프노드가 삭제 되었을 때의 조건으로 변한다. 삭제한 리프노드에 대해서 case 1 조건으로 이동한다.
+
+<div>
+  <img width="648" alt="스크린샷 2021-12-20 오후 4 50 50" src="https://user-images.githubusercontent.com/54795404/146731848-cd28e91a-8ad5-488f-be3e-8fa54afc1834.png">
+</div>
+
+## Case3) 삭제할 key k 가 내부 노드에 있고, 노드에 key 개수가 최소 key 개수만큼, 노드의 자식 key 개수도 모두 최소 key 개수인 경우
+
+삭제할 key k가 있는 노드도 최소, 자식노드들도 최소의 key 개수를 가지므로, k를 삭제하면 트리의 높이가 줄어들어 재구조화가 일어나는 경우이다. 재구조화의 과정은 다음과 같다.
+
+<div>
+  <img width="850" alt="스크린샷 2021-12-20 오후 5 08 15" src="https://user-images.githubusercontent.com/54795404/146733990-53396729-0f7c-4ca3-8ea3-3a24e4866a5c.png">
+</div>
+<div>
+  <img width="850" alt="스크린샷 2021-12-20 오후 5 08 25" src="https://user-images.githubusercontent.com/54795404/146734014-cd54814f-1b78-4132-bbff-6c6f6473f63c.png">
+</div>
+새로운 트리 예시
+
+<div>
+  <img width="850" alt="스크린샷 2021-12-20 오후 5 09 35" src="https://user-images.githubusercontent.com/54795404/146734143-93c32831-5a28-4d6e-8d56-337d21ebaae8.png">
+</div>
+<div>
+  <img width="850" alt="스크린샷 2021-12-20 오후 5 09 46" src="https://user-images.githubusercontent.com/54795404/146734172-c60daff6-88dc-4223-bb97-e1e169ea3b28.png">
+</div>
