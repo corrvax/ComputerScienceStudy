@@ -1,3 +1,20 @@
+<div align="center">
+  <br />
+  <h1>JVM 구조와 Java 실행과정</h1>
+  <br />
+</div>
+
+## 목차
+
+1. [**JVM이란**](#1)
+2. [**JVM 특징**](#2)
+3. [**JVM 구조**](#3)
+4. [**Java 실행과정**](#4)
+
+<br />
+
+<div id="1"></div>
+
 ## JVM이란
 
 Java Virtual Machine으로 Java와 OS 사이에서 중간자 역할을 수행한다.
@@ -14,6 +31,10 @@ C와 같은 언어 방식은 소스를 컴파일하면 OS에서 바로 실행될
 
 결과적으로 OS에 종속적이지 않고 Java 파일 하나만 만들면 어느 디바이스든 JVM 위에서 실행할 수 있다.
 
+<br />
+
+<div id="2"></div>
+
 ## JVM 특징
 
 - 스택 기반의 가상 머신
@@ -23,6 +44,10 @@ C와 같은 언어 방식은 소스를 컴파일하면 OS에서 바로 실행될
 - 모든 기본 타입의 정의를 명확히 함으로써 플랫폼 독립성 보장
 - 데이터 흐름 분석(Data flow analysis)에 기반한 자바 바이트코드 검증기(Verifier)를 통해 스택 넘침, 명령어 피연산자의 타입 규칙 위반, 필드 접근 규칙 위반, 지역 변수의 초기화 전 사용 등 많은 문제를 실행 전에 검증하여 실행 시 안전을 보장하고 별도의 부담을 줄여줌
 - 명령어에서 스택에서 가져올 피연산자의 타입을 명령어에 지정(예: 정수 덧셈은 iadd, 단정도 실수 덧셈은 fadd)
+
+<br />
+
+<div id="3"></div>
 
 ## JVM 구조
 
@@ -60,6 +85,10 @@ JVM이라는 프로그램이 운영체제 위에서 실행되면서 할당받는
 ![https://blog.kakaocdn.net/dn/Pj5z2/btqRjgFHsJw/hWVdVDfuQFNvw31uWxVzzk/img.png](https://blog.kakaocdn.net/dn/Pj5z2/btqRjgFHsJw/hWVdVDfuQFNvw31uWxVzzk/img.png)
 
 java 프로그램을 구동하기 위해는 jre, api, jvm이 포함된 jdk를 설치해야 한다. jdk를 설치할 때는 각자 OS환경에 맞는 것을 선택해야 하는데 이렇게 OS마다 다른 JVM이 제공되기 때문에 별개로 작동하게 된다.
+
+<br />
+
+<div id="4"></div>
 
 ## Java 실행과정
 
