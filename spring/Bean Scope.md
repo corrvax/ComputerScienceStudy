@@ -26,7 +26,7 @@
         - 프로토타입 빈은 프로토타입 빈을 조회한 클라이언트가 관리해야 한다. 종료 메서드에 대한 호출도 클라이언트가 직접 해야한다.
     - 프로토타입 빈을 주입받은 빈이 싱글톤이라면, 이 빈에 주입된 프로토타입 빈도 역시 싱글톤 생명주기를 따른다.
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8efQ%2Fbtrcus4VZml%2FkzBMqopdt1ucno64JTRZIk%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8efQ%2Fbtrcus4VZml%2FkzBMqopdt1ucno64JTRZIk%2Fimg.png)
+    ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8efQ%2Fbtrcus4VZml%2FkzBMqopdt1ucno64JTRZIk%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8efQ%2Fbtrcus4VZml%2FkzBMqopdt1ucno64JTRZIk%2Fimg.png)
     
 
 웹 관련 스코프
@@ -64,8 +64,8 @@
     - 애플리케이션 안에서 정말로 사용빈도가 높다면, 쓰기 접근에 대한 동기화 비용을 감안하고서라도 싱글톤을 고려할만하다. 이 방법은 1. 장시간에 걸쳐 매우 많은 객체가 생성될 때, 2. 해당 객체가 매우 작은 양의 쓰기상태를 가지고 있을 때, 3. 객체 생성비용이 매우 클 때에 유용한 선택이 될 수 있다.
 
 **비싱글톤으로 적합한 객체**
-1. ****쓰기가 가능한 상태를 지닌 객체
 
+1. 쓰기가 가능한 상태를 지닌 객체
 - 쓰기가 가능한 상태가 많아서 동기화 비용이 객체 생성 비용보다 크다면 싱글톤으로 적합하지 않다.
-1. 상태가 노출되지 않은 객체
+2. 상태가 노출되지 않은 객체
     - 일부 제한적인 경우, 내부 상태를 외부에 노출하지 않는 빈을 참조하여 다른 의존객체와는 독립적으로 작업을 수행하는 의존 객체가 있다면 싱글톤보다 비싱글톤 객체를 사용하는 것이 더 나을 수 있다.
