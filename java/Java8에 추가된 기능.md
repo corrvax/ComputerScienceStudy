@@ -16,38 +16,23 @@
 
 1. 람다 식에는 매개변수가 0 개, 1개 이상 있을 수 있음 (매개변수 없어도 됨)
     
-    <aside>
-    ✏️ ( ) -> expression
-    
-    </aside>
+    ```java
+    ( ) -> expression
+    ```
     
 2. 매개 변수가 여러개이면 괄호로 묶고, 쉼표로 구분
     
-    <aside>
-    ✏️ ( param1, param2, param3, param4 ) -> expression
-    
-    </aside>
+    ```java
+    ( param1, param2, param3, param4 ) -> expression
+    ```
     
 3. 매개 변수가 1개인 경우 괄호를 반드시 쓰지 않아도 됨
     
-    <aside>
-    ✏️ x -> x + x
-    
-    </aside>
+    ```java
+    x -> x + x
+    ```
     
 4. 람다 식의 본문이 단일 문인 경우 중괄호는 필수가 아니지만, 둘 이상의 명령문이 있는 경우 중괄호를 사용해야 함
-    
-    <aside>
-    ✏️ (param1, param2) -> {
-    
-    param1 = param1 + 1;
-    
-    param2 = param2 + 2;
-    
-    }
-    
-    </aside>
-    
 
 ## 2. Optional
 
