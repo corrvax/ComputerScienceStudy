@@ -315,10 +315,11 @@ Java에서는 **가변(mutable)성**을 가지는 **StringBuffer** / **Strin
 
 String 과는 반대로 StringBuffer/StringBuilder 는 가변성 가지기 때문에 .append() .delete() 등의 API를 이용하여 **동일 객체내에서 문자열을 변경**하는 것이 가능합니다. 따라서 **문자열의 추가,수정,삭제가 빈번하게 발생할 경우**라면 String 클래스가 아닌 **StringBuffer/StringBuilder를 사용**하셔야 합니다.
 
-`StringBuffer sb= new StringBuffer("hello");
-sb.append(" world");`
+`StringBuffer sb= new StringBuffer("hello"); 
 
-[https://t1.daumcdn.net/cfile/tistory/9923A9505E2F133608](https://t1.daumcdn.net/cfile/tistory/9923A9505E2F133608)
+sb.append(" world");`
+<img width="755" alt="스크린샷 2022-02-20 오후 6 20 14" src="https://user-images.githubusercontent.com/54795404/154836363-fc202f81-67d3-4a8c-b3ba-7ee3b69243b5.png">
+
 
 ****| StringBuffer  vs  StringBuilder**
 
