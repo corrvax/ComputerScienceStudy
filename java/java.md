@@ -22,5 +22,5 @@
 - 강한 결합과 느슨한 결합이 무엇인지 설명해주세요.
 - 직렬화와 역직렬화에 대해서 설명해주세요.
 - 자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.
-- Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.
+- [Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.](https://github.com/corrvax/ComputerScienceStudy/blob/main/java/mutableAndImmutable.md)
 - 자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.
