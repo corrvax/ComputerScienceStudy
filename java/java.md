@@ -19,7 +19,7 @@
 - Checked Exception과 Unchecked Exception에 대해 설명해주세요. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까요?
 - Java8에서 추가된 기능에 대해서 설명해주세요.
 - try-with-resource에 대해서 설명해주세요.
-- 강한 결합과 느슨한 결합이 무엇인지 설명해주세요.
+- [강한 결합과 느슨한 결합이 무엇인지 설명해주세요.](https://github.com/corrvax/ComputerScienceStudy/blob/main/java/%EA%B0%95%ED%95%9C%EA%B2%B0%ED%95%A9%EA%B3%BC%20%EB%8A%90%EC%8A%A8%ED%95%9C%EA%B2%B0%ED%95%A9.md)
 - 직렬화와 역직렬화에 대해서 설명해주세요.
 - 자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.
 - [Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.](https://github.com/corrvax/ComputerScienceStudy/blob/main/java/mutableAndImmutable.md)
